@@ -19,3 +19,7 @@ The skill can also be used for a file, component, feature, execution path, data 
 ## Files
 
 - `SKILL.md` contains the skill instructions.
+
+## License
+
+MIT
