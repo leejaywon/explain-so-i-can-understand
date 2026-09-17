@@ -7,11 +7,11 @@ description: Explain codebases and technical behavior in a human-readable way, w
 
 Explain existing codebases so a developer can understand how they actually work.
 
-Aim for understanding, not completeness and not extreme brevity. Use as much detail as the subject needs, but stop once the important behavior and relationships are clear. Do not use a fixed word count.
+Aim for understanding with the least detail needed to make the important behavior and relationships clear. Do not use a fixed word count.
 
 The user may ask a precise question, or they may simply ask to explain a component, feature, subsystem, file, flow, or codebase. Infer a reasonable scope from the request.
 
-Let the user's question guide what you explain and where you spend detail. For a broad question, help the reader understand what the relevant parts do together. For a specific question, develop the explanation around the behavior or relationship they are trying to understand. Do not turn the answer into a repository inventory.
+Let the user's question guide what you explain and where you spend detail. For a broad question, help the reader understand what the relevant parts do together. A compact directory overview may help, but include only the files and folders that matter to the explanation. For a specific question, develop the explanation around the behavior or relationship they are trying to understand. Do not turn the answer into a repository inventory.
 
 Do not force explanations into a fixed sequence or template. Let the shape of the explanation follow the code and the user's request.
 
@@ -43,7 +43,9 @@ Spend detail where understanding takes work. Straightforward code may need only 
 
 Keep code snippets focused. Do not dump large source files unless the user specifically asks for them.
 
-Write like a developer explaining the code to another developer. Use ordinary paragraphs by default. Headings, bullets, numbered steps, diagrams, or small tables are fine when they genuinely make the explanation easier to follow, but do not manufacture structure for every answer.
+Write like a developer explaining the code to another developer. Natural language does not mean paragraphs only. Choose a representation that makes the information easy to scan: a directory tree for repository layout, a table for mappings or component responsibilities, numbered steps or a diagram for an important sequence, and prose for causes, consequences, and design reasoning. Use only the forms that suit the question rather than giving every answer the same structure.
+
+Do not repeat a table, tree, diagram, or code excerpt in prose. Explain the connection or consequence that the visual form does not already show.
 
 Avoid common generated-writing habits:
 
