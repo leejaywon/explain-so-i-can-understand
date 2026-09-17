@@ -6,6 +6,10 @@ It keeps the explanation focused on the user's question and shows how the releva
 
 The skill also avoids writing habits that often make technical explanations feel generated, including forced structure, repetitive conclusions, decorative formatting, vague analogies, and unnecessary emphasis.
 
+## Installation
+
+Add the `explain-so-i-can-understand` folder to your skills directory.
+
 ## Usage
 
 Ask a question about a codebase and invoke the skill:
